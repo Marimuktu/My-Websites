@@ -2,19 +2,34 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Non-Responsive</title>
+  <title>Non-Responsive Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="p-6 bg-red-100">
+<body class="p-6 bg-red-50">
+
   <h1 class="text-2xl font-bold mb-4">Non-Responsive Page</h1>
 
-  <div class="w-[800px] flex gap-4">
-    <div class="w-[390px] bg-red-400 text-white p-6 rounded text-center">Box 1</div>
-    <div class="w-[390px] bg-red-600 text-white p-6 rounded text-center">Box 2</div>
+  <div class="w-[900px] flex gap-4 items-center">
+
+    <div class="w-[400px] bg-white p-4 rounded shadow">
+      <h2 class="font-semibold mb-2">Fixed Layout</h2>
+      <p>
+        This page keeps the same width on all devices,
+        so mobile users must scroll horizontally.
+      </p>
+    </div>
+
+    <img
+      src="BG.jpg"
+      alt="Non-responsive demo image"
+      class="w-[500px] rounded shadow"
+    />
+
   </div>
 
   <a href="index.html" class="inline-block mt-6 text-red-700 underline">
     Back
   </a>
+
 </body>
 </html>
